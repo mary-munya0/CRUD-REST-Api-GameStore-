@@ -11,7 +11,6 @@ This project is a CRUD REST API built in C# using the ASP.NET Core framework. Th
 - C#
 - ASP.NET Core (Web API framework)
 - Entity Framework Core(ORM for database operations)
-- SQL Server(Database)
 -  REST Client(for API testing)
 
 ## Installation
