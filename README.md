@@ -21,17 +21,18 @@ This project is a CRUD REST API built in C# using the ASP.NET Core framework. Th
 
 ### Steps to install:
 1. Clone this repository:
-   ```bash
    git clone https://github.com/mary-munya0/CRUD-REST-Api-GameStore-.git
    cd CRUD-REST-Api-GameStore-
-2. Install dependencies (make sure you have .NET SDK installed):
+   
+3. Install dependencies (make sure you have .NET SDK installed):
     dotnet restore
    
-4. Update your connection string in appsettings.json to connect to your SQL Server instance.
- 
+4. Navigate to the GameStore.Api directory:
+      cd GameStore.Api
+   
 5. Apply migrations to set up the database:
     dotnet ef database update
    
-7. Run the API:
+6. Run the API:
     dotnet run
 
